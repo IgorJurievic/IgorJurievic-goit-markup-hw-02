@@ -1,0 +1,157 @@
+:root {
+    --primary-text-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+
+}
+/* колір лого #000000 #2196F3  */
+/* hero background: #2F303A; */
+/* background: #FFFFFF; */
+/* second background: #F5F4FA; */
+/* footer background: #2F303A; */
+/* text logo Raleway */
+/* text Roboto */
+.page {
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* header */
+
+.page-header {
+    background-color: var(--white-color);
+}
+
+.logo {
+    color: #000000;
+}
+
+.site-nav .link{
+    color: var(--primary-text-color);
+}
+
+.site-nav .link:hover, .site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link:active {
+    color: var(--accent-color)
+
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.contacts .link{
+    color: var(--text-color);
+}
+
+.contacts .link:hover, .contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* hero */
+
+.hero {
+    background-color: #2F303A;
+    color: var(--white-color);
+}
+
+/* section */
+
+.visually-hidden {
+    position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;
+}
+
+.list-title {
+
+}
+
+.list-text {
+    color: var(--text-color);
+}
+
+/* examples */
+
+.section {
+    background-color: var(--white-color);
+}
+
+.section .title {
+
+}
+
+/* staf */
+
+.teem {
+    background-color: #F5F4FA;
+}
+
+.teem-list {
+    background-color: var(--white-color);
+}
+
+.teem .title {
+
+}
+
+.teem-title {
+
+}
+
+.teem-text {
+    color: var(--text-color);
+
+}
+
+/* footer */
+
+footer {
+    background-color: #2F303A;
+}
+
+footer .address {
+    color: var(--white-color)
+}
+
+footer .address:hover, footer .address:focus {
+    color: var(--accent-color);
+}
+
+footer .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+footer .link:hover,
+footer .link:focus {
+    color: var(--accent-color);
+}
+
+/* button */
+.button {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+.nav-button:hover, .nav-button:focus {
+color: var(--accent-color);
+}
+
+.nav-button {
+    color: var(--primary-text-color);
+}
